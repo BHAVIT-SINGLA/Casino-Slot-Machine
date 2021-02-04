@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href=app.css>
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-    
+    <h1 id="head"><em><strong>SLOT MACHINE</strong> </em></h1>
+    <h5 id="phrase"><em><strong></strong>Try Your Luck</strong> </em></h5>
+    <div class="cover">
     <div class="machine">
         <div class="slot">
             <div id="slot1" class="same">😀</div>
@@ -19,9 +21,16 @@
         <div class="slot">
             <div id="slot3" class="same">😄</div>
         </div>
-    </div>
+       
+    </div >
+    <div class="control">
+    <label for="#speed">Speed controller</label>
     <input type="number" min="1" max="10" value="10" id="speed">
-    <button id="stop"> STOP</button>
+    </div>
+    <button class="btn btn-danger  d-block" id="stop"> STOP</button>
+    <div id="message"></div>
+</div>
+    
     <script src="app.js"></script>
 </body>
 </html>

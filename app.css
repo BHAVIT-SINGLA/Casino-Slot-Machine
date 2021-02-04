@@ -1,10 +1,30 @@
-.machine
+body
+{
+    background-image: url("./images/bg2.jpg") ;
+    background-size:cover;
+}
+#head
+{
+    text-align: center;
+    color: azure;
+}
+#phrase
+{
+    text-align: center;
+    color: azure;
+}
+.cover
 {
     background-color: aqua;
     height: 600px;
     width: 50%;
     margin: auto;
     border: 2px dotted blueviolet;
+    border-radius: 30px;
+}
+.machine
+{
+  
     display: flex;
     z-index: 3;
     
@@ -36,7 +56,10 @@
     
     z-index: 2;
 }
-
+#speed
+{
+    margin: auto;
+}
 
 
 

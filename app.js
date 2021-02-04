@@ -11,6 +11,7 @@ value1.style.animationDuration=`${newspeed}`+'s';
 value2.style.animationDuration=`${newspeed}`+'s';
 value3.style.animationDuration=`${newspeed}`+'s';
 let stopb=document.getElementById('stop');
+let message=document.getElementById('message');
 console.log(stopb);
 
 var animationId;
@@ -84,11 +85,11 @@ stopb.onclick =() =>
     let v3=value3.innerText;
     if(v1===v2 && v1===v3)
     {
-        console.log("YOU WON THE GAME");
+        message.innerText="YOU WON THE GAME";
     }
     else
     {
-        console.log("TRY AGAIN");
+        message.innerText="TRY AGAIN";
     }
     
 
