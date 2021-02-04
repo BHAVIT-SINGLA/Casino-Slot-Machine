@@ -1,0 +1,53 @@
+.machine
+{
+    background-color: aqua;
+    height: 600px;
+    width: 50%;
+    margin: auto;
+    border: 2px dotted blueviolet;
+    display: flex;
+    z-index: 3;
+    
+    
+
+}
+
+.slot
+{
+   
+    height: 200px;
+    width: 30%;
+    background-color: crimson;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 100px;
+    border-radius: 20px;
+    z-index: 1;
+    overflow: hidden;
+
+    
+}
+.same
+{
+    text-align: center;
+    margin-top: 20px;
+    animation-name: spin;
+    animation-iteration-count: infinite ;
+    
+    z-index: 2;
+}
+
+
+
+
+@keyframes spin 
+{
+    0%
+    {
+        transform: translateY(-50px);
+    }
+    100%
+    {
+        transform: translateY(60px);
+    }
+}
